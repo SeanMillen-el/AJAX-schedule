@@ -1,6 +1,10 @@
 $(document).ready(function () {
   const btn = $("#submitDay");
 
+  const bellschedule = {
+    1: { Start: "8:24 A.M.", End: "9:31 A.M." },
+  };
+
   btn.on("click", function () {
     const selectedDay = $("#dayInput").val().trim().toUpperCase();
 
